@@ -42,29 +42,41 @@
             <div class="row">
                 <div class="col-xl-4 col-md-6 col-12 mb-1">
                     <fieldset class="form-group">
-                        <label for="basicInput">العنوان</label>
-                        <input type="text" class="form-control" id="ادخل العنوان " placeholder="العنوان" name="title">
+                        <label for="basicInput">الاسم</label>
+                        <input type="text" class="form-control" id="ادخل الاسم " placeholder="الاسم" name="name">
                     </fieldset>
 
                 </div>
 
                 <div class="col-xl-4 col-md-6 col-12 mb-1">
                     <fieldset class="form-group">
-                        <label for="basicInput">تاريخ البدء</label>
-                        <input type="date" class="form-control" id="ادخل العنوان " placeholder="تاريخ البدء" name="startdate">
+                        <label for="basicInput">البريد الالكتروني</label>
+                        <input type="text" class="form-control" id="ادخل الاسم " placeholder="البريد الالكتروني" name="email">
                     </fieldset>
 
                 </div>
 
                 <div class="col-xl-4 col-md-6 col-12 mb-1">
                     <fieldset class="form-group">
-                        <label for="basicInput">الحالة</label>
-                        <select class="form-control" id="basicSelect" name="status">
-                            <option>staging</option>
-                            <option>in progress</option>
-                            <option>test</option>
-                            <option>in progress</option>
-                            <option>test</option>
+                        <label for="basicInput">كلمه السر</label>
+                        <input type="password" class="form-control" id="ادخل الاسم " placeholder="كلمه السر" name="password">
+                    </fieldset>
+
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-12 mb-1">
+                    <fieldset class="form-group">
+                        <label for="basicInput"> تئكيد كلمه السر </label>
+                        <input type="password" class="form-control" id="ادخل الاسم " placeholder=" تئكيد كلمه السر" name="password_confirmation">
+                    </fieldset>
+
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 mb-1">
+                    <fieldset class="form-group">
+                        <label for="basicInput">الدور</label>
+                        <select class="form-control" id="basicSelect" name="role">
+                            <option>administrator</option>
+                            <option>user</option>
                         </select>
                     </fieldset>
 

@@ -46,6 +46,19 @@
 
                 </ul>
             </li>
+            <div class="text-center mt-5">
+
+
+                <a class="btn btn-primary " href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                    تسجيل خروج
+
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+            </div>
+
         </ul>
     </div>
 </div>
